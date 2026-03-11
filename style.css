@@ -51,15 +51,14 @@ margin: 0 15px;
 text-decoration: none;
 }
 
+nav a:hover{
+color: gray;
+}
+
+
 .navbar{
 display:flex;
 position: fixed;
 top:0;
 width: 100%;
-
 }
-
-nav a:hover{
-color: gray;
-}
-
