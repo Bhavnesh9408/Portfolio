@@ -43,7 +43,6 @@ border-radius: 5px;
 nav{
 background:#222;
 padding: 15px;
-text-align: center;
 }
 
 nav a{
@@ -52,6 +51,15 @@ margin: 0 15px;
 text-decoration: none;
 }
 
+.navbar{
+display:flex;
+position: fixed;
+top:0;
+width: 100%;
+
+}
+
 nav a:hover{
 color: gray;
 }
+
